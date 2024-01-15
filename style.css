@@ -55,7 +55,7 @@
     height: 64px;
     cursor: pointer;
     margin-top: 20px;
-    padding: 20px 25px;
+    /* padding: 20px 25px; */
 }
 
 .img{
@@ -83,4 +83,23 @@
     nav{
         flex-direction: column;
     }
+}
+
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.contain{
+    display: flex;
+   align-items: center;
+  
+}
+.container-img{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+}
+.content{
+    padding-left: 70px;
+    padding-right: 70px;
 }
